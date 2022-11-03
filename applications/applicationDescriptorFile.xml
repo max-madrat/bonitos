@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="registration-request" version="1.0" profile="User" homePage="registration-request" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Project Registration Request</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_RegistrationProcess" token="registration-request"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="registration-request">
+                <displayName>Request follow-ups</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

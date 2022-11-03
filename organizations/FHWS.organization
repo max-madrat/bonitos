@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="FHWS">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="sakshi">
+      <firstName>Sakshi</firstName>
+      <lastName>Rajput</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">111</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="dobhan">
+      <firstName>Alexander</firstName>
+      <lastName>Dobhan</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">222</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="beckert">
+      <firstName>Johannes</firstName>
+      <lastName>Beckert</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">333</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Approver">
+      <displayName>Approver</displayName>
+    </role>
+    <role name="Requestor">
+      <displayName>Requestor</displayName>
+    </role>
+    <role name="Usernamecreator">
+      <displayName>Usernamecreator</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Students">
+      <displayName>Students</displayName>
+    </group>
+    <group name="Professors">
+      <displayName>Professors</displayName>
+    </group>
+    <group name="IT department">
+      <displayName>IT department</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>sakshi</userName>
+      <roleName>Requestor</roleName>
+      <groupName>Students</groupName>
+    </membership>
+    <membership>
+      <userName>dobhan</userName>
+      <roleName>Approver</roleName>
+      <groupName>Professors</groupName>
+    </membership>
+    <membership>
+      <userName>beckert</userName>
+      <roleName>Usernamecreator</roleName>
+      <groupName>IT department</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
